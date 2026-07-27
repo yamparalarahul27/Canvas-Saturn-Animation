@@ -24,8 +24,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Saturn Animation",
-  description: "Minimal Saturn ring background animation on black.",
+  title: "MacBook Pro 14″ M1 Pro — For Sale",
+  description:
+    "MacBook Pro 14-inch, M1 Pro, 256 GB, Silver. Check the photos and make your offer.",
 };
 
 export default function RootLayout({
@@ -34,9 +35,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body
-        className={`${inter.variable} ${instrumentSerif.variable} ${jetbrainsMono.variable} antialiased bg-black text-slate-200`}
+        className={`${inter.variable} ${instrumentSerif.variable} ${jetbrainsMono.variable} antialiased`}
         style={{ fontFamily: "var(--font-inter), system-ui, sans-serif" }}
       >
         <div className="relative min-h-screen z-[2]">{children}</div>
